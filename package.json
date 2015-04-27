@@ -1,0 +1,39 @@
+{
+  "name": "APGWebServer",
+  "version": "1.0.0",
+  "description": "Various Web functionality for APG",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "APG",
+    "NLogic"
+  ],
+  "author": {
+    "name": "Adam",
+    "email": "AdamPMaier@gmail.com",
+    "url":  "http://arcturusprovinggrounds.com"
+  },
+  "homepage": "http://arcturusprovinggrounds.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeaconSyre/APGWebServer.git"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": 
+  { "socket.io" : "",
+    "mysql" : "",
+    "paypal-rest-sdk" : "",
+    "nodemailer" : "",
+    "twilio" : ""
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "app.js"
+}
